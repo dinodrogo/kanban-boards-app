@@ -1,0 +1,112 @@
+﻿@model ProjectManagementApp.ViewModels.CardDetails
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container">
+    <h2>Details</h2>
+    
+    <div class="row">
+        <form class="col s12" asp-controller="Card" asp-action="Update">
+            <div class="row">
+                <div class="input-field col s12">
+                    <input placeholder="Card contents"   asp-for="Contents" />
+                    <label asp-for="Contents">Contents</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <textarea placeholder="Notes" 
+                              asp-for="Notes"  
+                                class="materialize-textarea"></textarea>
+                    <label asp-for="Notes">Notes</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <select asp-for="Column" asp-items="Model.Columns"></select>
+                    <label asp-for="Column"></label>
+                </div>
+            </div>
+            @if (Model.AssignedTo == null)
+            {
+                <p>
+                    Currently not assigned to anyone!
+                </p>
+            }
+            else
+            {
+                <p>
+                    Assigned to: @Model.AssignedTo.Email
+                </p>
+            }
+            <div class="row">
+                <input type="submit" value="Save" class="btn">
+                <a asp-controller="Home" asp-action="Index" class=btn>Back to Boards</a>
+                <a asp-controller="User"
+                    asp-action="ListUsers"
+                    asp-route-id="@Model.Id"
+                    class="wave-effect waves-light btn">
+                    ASSIGN TO USER
+                </a>
+                
+            </div>
+            <input asp-for="Id" type="hidden"/>
+        </form>
+        
+        
+        <form asp-action="AssignToCard" asp-controller="Card">
+                    <input type="hidden"
+                            value="@Model.Id"
+                            name="cardId" />
+                    <input type="hidden"
+                            value=""
+                            name="user" />
+                    <button class="btn"
+                            type="submit">
+                            Remove Assigned user
+                        </button>
+                </form>
+
+        <h3>Comments</h3>
+        @if(User.Identity.Name!=null)
+        {
+            <a asp-controller="Card"
+                asp-action="AddComment"
+                asp-route-id="@Model.Id"
+                class="wave-effect waves-light btn" style="margin-bottom: 10px">
+                COMMENT
+            </a>
+        }
+        
+        @foreach (var c in Model.CardComments)
+        {
+            <div class="rounded" style="background-color: pink; border-radius: 15px; padding: 10px; width: fit-content; margin-bottom: 10px;">
+                <strong>
+                    @c.CreatedBy
+                    @c.CreationDate
+                </strong>
+                <p>
+                    @c.Comment
+                </p>
+            </div>
+        }
+
+    </div>
+</div>
+
+
+@if(TempData.ContainsKey("Message"))
+{
+    <script type="text/javascript">
+        M.toast({ html: '@TempData["Message"]'}, 3000);
+    </script>
+}
+
+<script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('select');
+        var instances = M.FormSelect.init(elems);
+    });
+</script>

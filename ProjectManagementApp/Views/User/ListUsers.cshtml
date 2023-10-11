@@ -1,0 +1,54 @@
+﻿@using ProjectManagementApp.Infrastructure
+@using ProjectManagementApp.ViewModels
+@model IQueryable<AppUser>
+@{
+    ViewBag.Title = "All Users";
+}
+
+            
+        <div class="container">
+@if(Model.Any())
+{
+            <h2>
+                Assign User To Card
+            </h2>
+    foreach(var user in Model)
+    {
+            <div class="row">
+                <form asp-action="AssignToCard" asp-controller="Card">
+                    <p style="display: inline;">
+                    @user.Email
+                    <img src=@user.PicturePath alt="" 
+                                            style="width:60px;
+                                            height:60px;
+                                            object-fit:cover;
+                                            border-radius:50%;
+                                            float:left;
+                                            ">
+                    </p>
+                    <input type="hidden"
+                            value="@ViewBag.cardId"
+                            name="cardId" />
+                    <input type="hidden"
+                            value="@user.Email"
+                            name="user" />
+                    <button class="btn"
+                            type="submit">
+                            Assign
+                        </button>
+                </form>
+            </div>
+    }
+    
+}
+else
+{
+    <div class="card">
+        <div class="card-header">
+            no users created yet
+        </div>
+        <div class="card-body"></div>
+    </div>
+}
+
+</div>

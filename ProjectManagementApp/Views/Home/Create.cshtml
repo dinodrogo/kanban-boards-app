@@ -1,0 +1,16 @@
+﻿@model ProjectManagementApp.ViewModels.NewBoard;
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container">
+    <h2>Add a new Board</h2>
+    <form method="post" asp-action="Create" asp-controller="Home">
+        <div asp-validation-summary="All" class="red-text"></div>
+        <label>Title</label>
+        <input type="text" asp-for="Title"/>
+        <input type="hidden" asp-for="CreatedBy" value="@User.Identity.Name"/>
+        <input type="submit" class="btn" />
+    </form>
+</div>
+

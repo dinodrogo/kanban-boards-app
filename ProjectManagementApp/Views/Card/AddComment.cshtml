@@ -1,0 +1,17 @@
+﻿@model ProjectManagementApp.ViewModels.AddComment
+
+@{
+    ViewData["Title"] = "AddComment";
+}
+<div class="container">
+    <div class="row">
+        <h2>Add Comment</h2>
+        <form asp-action="AddComment" asp-controller="Card">
+            <div asp-validation-summary="All" class="red-text"></div>
+            <label>Comment</label>
+            <input type="text" asp-for="Comment"/>
+            <input type="hidden" asp-for="CreatedBy" value="@User.Identity.Name"/>
+            <button type="submit" class="btn">Add Comment</button>
+        </form>
+    </div>
+</div>

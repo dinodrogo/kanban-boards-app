@@ -1,0 +1,233 @@
+﻿++Solution 'ProjectManagementApp' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:ProjectManagementApp.sln
+++ProjectManagementApp
+i:{00000000-0000-0000-0000-000000000000}:ProjectManagementApp
+++Connected Services 
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:>1028
+++Dependencies
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:>1027
+++Properties
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\properties\
+++wwwroot
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\wwwroot\
+++Controllers
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\controllers\
+++Data
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\data\
+++Infrastructure
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\infrastructure\
+++Migrations
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\
+++Models
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\models\
+++Services
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\services\
+++ViewModels
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\viewmodels\
+++Views
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\
+++appsettings.json
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\appsettings.json
+++Program.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\program.cs
+++ProjectManagementApp.db
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\projectmanagementapp.db
+++ProjectManagementApp.db-shm
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\projectmanagementapp.db-shm
+++ProjectManagementApp.db-wal
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\projectmanagementapp.db-wal
+++Startup.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\startup.cs
+++No service dependencies discovered
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:>1029
+++Analyzers
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:analyzers
+++MessagePackAnalyzer
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.7\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.3\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\program files\dotnet\sdk\6.0.201\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.3\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Frameworks
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:frameworks
+++Packages
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:packages
+++launchSettings.json
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\properties\launchsettings.json
+++css
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\wwwroot\css\
+++fonts
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\wwwroot\fonts\
+++js
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\wwwroot\js\
+++Api
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\controllers\api\
+++BoardController.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\controllers\boardcontroller.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\controllers\api\boardcontroller.cs
+++CardController.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\controllers\cardcontroller.cs
+++HomeController.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\controllers\homecontroller.cs
+++UserController.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\controllers\usercontroller.cs
+++MigrationManager.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\data\migrationmanager.cs
+++TrelloCloneDbContext.cs
+++AppUser.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\infrastructure\appuser.cs
+++20220730121206_mig1.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220730121206_mig1.cs
+++20220730150437_mgi2.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220730150437_mgi2.cs
+++20220901163317_mig.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220901163317_mig.cs
+++20220905185006_datetiem.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220905185006_datetiem.cs
+++20220907212526_BoardCreatedby.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220907212526_boardcreatedby.cs
+++20220907212700_BoardCreatedby1.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220907212700_boardcreatedby1.cs
+++20220907214014_Createdbycardcomment.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220907214014_createdbycardcomment.cs
+++20220907214744_commentCreationDate.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220907214744_commentcreationdate.cs
+++ProjectManagementAppDbContextModelSnapshot.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\projectmanagementappdbcontextmodelsnapshot.cs
+++Board.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\models\board.cs
+++Card.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\models\card.cs
+++CardComments.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\models\cardcomments.cs
+++Column.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\models\column.cs
+++BoardService.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\services\boardservice.cs
+++CardService.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\services\cardservice.cs
+++AddCard.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\viewmodels\addcard.cs
+++AddComment.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\viewmodels\addcomment.cs
+++BoardList.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\viewmodels\boardlist.cs
+++BoardView.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\viewmodels\boardview.cs
+++CardDetails.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\viewmodels\carddetails.cs
+++LoginViewModel.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\viewmodels\loginviewmodel.cs
+++MoveCardCommand.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\viewmodels\movecardcommand.cs
+++NewBoard.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\viewmodels\newboard.cs
+++RegisterViewModel.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\viewmodels\registerviewmodel.cs
+++Board
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\board\
+++Card
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\card\
+++Home
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\home\
+++Shared
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\shared\
+++User
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\user\
+++_ViewImports.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\_viewstart.cshtml
+++appsettings.Development.json
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\appsettings.development.json
+++Microsoft.AspNetCore.App
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\microsoft.netcore.app
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.7)
+++Microsoft.AspNetCore.Mvc.NewtonsoftJson (6.0.7)
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:>1043
+++Microsoft.EntityFrameworkCore.Sqlite (6.0.7)
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.7)
+++Microsoft.EntityFrameworkCore.Tools (6.0.7)
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.8)
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:>1046
+++Swashbuckle.AspNetCore (6.3.0)
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:>1041
+++site.css
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\wwwroot\css\site.css
+++JavaScript.js
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\wwwroot\js\javascript.js
+++20220730121206_mig1.Designer.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220730121206_mig1.designer.cs
+++20220730150437_mgi2.Designer.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220730150437_mgi2.designer.cs
+++20220901163317_mig.Designer.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220901163317_mig.designer.cs
+++20220905185006_datetiem.Designer.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220905185006_datetiem.designer.cs
+++20220907212526_BoardCreatedby.Designer.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220907212526_boardcreatedby.designer.cs
+++20220907212700_BoardCreatedby1.Designer.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220907212700_boardcreatedby1.designer.cs
+++20220907214014_Createdbycardcomment.Designer.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220907214014_createdbycardcomment.designer.cs
+++20220907214744_commentCreationDate.Designer.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\migrations\20220907214744_commentcreationdate.designer.cs
+++AddCard.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\board\addcard.cshtml
+++Index.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\board\index.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\home\index.cshtml
+++AddComment.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\card\addcomment.cshtml
+++Details.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\card\details.cshtml
+++Create.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\home\create.cshtml
+++_Layout.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\shared\_layout.cshtml
+++_LoginPartial.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\shared\_loginpartial.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\shared\_validationscriptspartial.cshtml
+++Login.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\user\login.cshtml
+++Register.cshtml
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\views\user\register.cshtml
+++ProjectManagementAppDbContext.cs
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:c:\users\ognja\desktop\projectmanagementapp\projectmanagementapp\data\projectmanagementappdbcontext.cs
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.8)
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:>1068
+++Microsoft.EntityFrameworkCore.Sqlite (6.0.8)
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:>1070
+++Microsoft.EntityFrameworkCore.Tools (6.0.8)
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:>1078
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.8)
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:>1080
+++Microsoft.AspNetCore.Identity.UI (6.0.8)
+i:{e0b986b1-2efa-4db1-9c22-8df42fd7e838}:>1079

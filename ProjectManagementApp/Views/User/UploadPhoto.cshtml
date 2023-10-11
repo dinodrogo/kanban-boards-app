@@ -1,0 +1,20 @@
+﻿@using ProjectManagementApp.Infrastructure
+@using ProjectManagementApp.ViewModels
+@model IQueryable<AppUser>
+@{
+    ViewBag.Title = "Upload Photo";
+}
+
+            
+        <div class="container">
+            <h2>
+                Upload Photo
+            </h2>
+            <div class="row">
+                        @using (Html.BeginForm("AddPhotoo", "User", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    <input class="wave-effect waves-light btn" type="file" name="postedFile" accept=".jpg,.png"/>
+                    <input class="wave-effect waves-light btn" type="submit" id="btnUpload" value="Upload"/>
+                }
+            </div>
+</div>

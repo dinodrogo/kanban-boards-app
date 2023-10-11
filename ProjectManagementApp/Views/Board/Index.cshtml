@@ -1,0 +1,193 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using ProjectManagementApp.Infrastructure
+@model ProjectManagementApp.ViewModels.BoardView
+@inject UserManager<AppUser> UserManager
+
+@{
+    ViewData["Title"] = @Model.Title;
+}
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Xsrf
+
+@functions {
+    public string GetAntiXsrfRequestToken()
+    {
+        return Xsrf.GetAndStoreTokens(Context).RequestToken;
+    }
+}
+
+<input type="hidden" 
+       id="RequestVerificationToken"
+       name="RequestVerificationToken" 
+       value="@GetAntiXsrfRequestToken()">
+
+<script>
+    $(function () {
+        $(".draggable").draggable({
+            revert: "invalid"
+        });
+
+        $('.column').droppable({
+            accept: '.draggable',
+            drop: function (event, ui) {
+                var dropped = ui.draggable;
+                var droppedOn = $(this);
+                $(dropped).detach().css({ top: 0, left: 0 }).appendTo(droppedOn);
+
+                $.ajax({
+                    type: "POST",
+                    dataType: "json",
+                    contentType: "application/json",
+                    url: "/api/Board/movecard",
+                    beforeSend: function (request) {
+                        request.setRequestHeader("RequestVerificationToken", $('#RequestVerificationToken').val());
+                    },
+                    data: JSON.stringify({ cardId: dropped[0].id, columnId: droppedOn[0].id }),
+                });
+            }
+        });
+    });
+</script>
+
+<div class="container">
+    <h4 style="text-align:center">@Model.Title</h4>
+    <h5 style="text-align:center">by @Model.CreatedBy</h5>
+
+    <div class="row">
+        <div class="col s10">
+            @if(User.Identity.Name!=null)
+        {
+            <a asp-controller="Board"
+                asp-action="AddCard"
+                asp-route-id="@Model.Id"
+                class="wave-effect waves-light btn">
+                Add A Card
+            </a>
+        }
+        </div>
+    </div>
+
+    <div class="row">
+        
+        @foreach (var column in Model.Columns)
+        {
+            <div class="col m4">
+
+                <h3 style="text-align:center">@column.Title</h3>
+
+                <div class="column" style="min-height: 600px" id="@column.Id">
+
+                    @foreach (var card in column.Cards)
+                    {
+                        <div class="card blue-grey darken-1 draggable" id="@card.Id" >
+                            <div class="card-content" style="background-color: @card.Color">
+
+
+                                <form asp-action="UpdateColor" asp-controller="Card" style="float: right;">
+                                <input type="hidden"
+                                       value="@card.Id"
+                                       name="id" />
+                                <input type="hidden"
+                                       value="green"
+                                       name="Color" />
+                                <input type="hidden"
+                                       value="@Model.Id"
+                                       name="boardId" />
+                                <button class="btn-floating btn-small green"
+                                       style="height: 15px; width: 15px"
+                                        type="submit">
+                                    </button>
+                                </form>
+
+                                <form asp-action="UpdateColor" asp-controller="Card" style="float:right;">
+                                <input type="hidden"
+                                       value="@card.Id"
+                                       name="id" />
+                                <input type="hidden"
+                                       value="Indianred"
+                                       name="Color" />
+                                <input type="hidden"
+                                       value="@Model.Id"
+                                       name="boardId" />
+                                <button class="btn-floating btn-small"
+                                       style="height: 15px; width: 15px; background-color: Indianred"
+                                        type="submit">
+                                    </button>
+                                </form>
+
+                                <form asp-action="UpdateColor" asp-controller="Card" style="float:right">
+                                <input type="hidden"
+                                       value="@card.Id"
+                                       name="id" />
+                                <input type="hidden"
+                                       value="purple"
+                                       name="Color" />
+                                <input type="hidden"
+                                       value="@Model.Id"
+                                       name="boardId" />
+                                <button class="btn-floating btn-small purple"
+                                       style="height: 15px; width: 15px"
+                                        type="submit">
+                                    </button>
+                                </form>
+
+
+                                <p>
+                                    <a asp-controller="Card" asp-action="Details"
+                                       asp-route-id="@card.Id" class="white-text">
+                                        <h4 style="margin-top: 0px">
+                                            @card.Content
+                                        </h4>
+                                        <p>
+                                            @card.Notes
+                                        </p>
+
+                                    </a>
+                                </p>
+
+                            </div>
+                            <div class="card-action white-text" style="background-color: @card.Color">
+                                
+
+                                @if (card.AssignedTo == null)
+                                {
+                                    <p>
+                                        Currently not assigned to anyone!
+                                    </p>
+                                }
+                                else
+                                {
+                                    <div class="row">
+                                        Assigned to: @card.AssignedTo.Email
+                                        <img src=@UserManager.FindByIdAsync(card.AssignedTo.Id.ToString()).Result.PicturePath alt="" 
+                                            style="width:60px;
+                                            height:60px;
+                                            object-fit:cover;
+                                            border-radius:50%;
+                                            float: right;
+                                            ">
+                                    </div>
+
+                                }
+                                @card.CreationDate
+                            <form asp-action="Delete" asp-controller="Card"
+                                          style="float: right;">
+                                        <input type="hidden"
+                                               value="@card.Id"
+                                               name="id" />
+                                        <input type="hidden"
+                                                value="@Model.Id"
+                                                name="board" />
+                                <button class="btn-floating btn-small red"
+                                type="submit">
+                                    <i class="material-icons">delete</i>
+                                </button>
+                                    </form>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
